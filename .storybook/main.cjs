@@ -15,5 +15,12 @@ module.exports = {
   "features": {
     "storyStoreV7": true
   },
-  "typescript": { reactDocgen: 'none' }
+  "typescript": { reactDocgen: 'none' },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      config.base = "/ignite-lab-design-system"
+    }
+
+    return config
+  }
 }
