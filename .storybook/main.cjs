@@ -7,7 +7,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    "@storybook/addon-a11y"
+    "@storybook/addon-a11y",
   ],
   "framework": "@storybook/react",
   "core": {
@@ -18,6 +18,9 @@ module.exports = {
     "interactionsDebugger": true,
   },
   "typescript": { reactDocgen: 'none' },
+  "staticDirs": [
+    "../public"
+  ],
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
       config.base = "/ignite-lab-design-system"
