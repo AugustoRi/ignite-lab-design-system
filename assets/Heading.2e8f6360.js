@@ -1,0 +1,2 @@
+var e=Object.defineProperty;var a=(t,o)=>e(t,"name",{value:o,configurable:!0});import{c as m}from"./clsx.m.256e9345.js";import{$ as s}from"./index.module.3fef495d.js";import{j as x}from"./jsx-runtime.d2a3df3d.js";function p({size:t="md",children:o,asChild:c,className:r}){return x(c?s:"h2",{className:m("text-gray-100 font-bold font-sans",{"text-lg":t==="sm","text-xl":t==="md","text-2xl":t==="lg"},r),children:o})}a(p,"Heading");export{p as H};
+//# sourceMappingURL=Heading.2e8f6360.js.map
